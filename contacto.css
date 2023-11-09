@@ -1,0 +1,46 @@
+.formcontainer{ 
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+   gap: 20px;
+ 
+}
+
+form{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid ; 
+   border-radius: 5px;
+   width: fit-content;
+   margin: auto;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+
+textarea{ 
+
+resize: none;
+    width: max-content;
+    height: max-content;
+    
+
+}
+
+.subsection{ 
+
+    display: flex;
+    
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+button {
+  margin-top: 10px;
+ 
+}
